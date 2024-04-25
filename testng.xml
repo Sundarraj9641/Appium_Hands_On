@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="ApiDemos">
+		<classes>
+			<class name="com.appiumtesting.AppiumHandson.HandsOnDayOne" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="General Store">
+		<classes>
+			<class name="com.appiumtesting.AppiumHandson.HandsOnDayTwo" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Web Orders">
+		<classes>
+			<class name="com.appiumtesting.AppiumHandson.HandsOnDayThree" />
+		</classes>
+	</test>
+	
+	<test thread-count="5" name="Guru99 Bank">
+		<classes>
+			<class name="com.appiumtesting.AppiumHandson.HandsOnDayFour" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
